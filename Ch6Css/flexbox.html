@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Prectice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin: 10px;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            height: 150vh;
+            background-color: pink;
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+        }
+        
+        .box1 {
+            background-color: red;
+            height: 233px;
+            width: 255px;
+            border: solid black 2px;
+        }
+            
+
+        .box2 {
+            background-color: yellow;
+            height: 233px;
+            width: 255px;
+            border: solid black 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+
+</html>

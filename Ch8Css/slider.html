@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch8 Css Transition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 40px;
+            background-color: black;
+        }
+
+        .pro {
+            background-color: red;
+            height: 3px;
+            /* height: 2px solid red; */
+            animation: load 2s ease-in-out;
+        }
+
+        main {
+            height: 600px;
+            background-color: rgb(21, 232, 17);
+        }
+
+        footer {
+            height: 40px;
+            background-color: rgb(136, 151, 104);
+        }
+
+        @keyframes load {
+            0% {
+                width: 0;
+            }
+
+            50% {
+                width: 70vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+        .slider{
+            height: 233px;
+            background-color: aqua;
+            width: 100vw;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="pro"></div>
+    <main>
+        <div class="slider">
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
